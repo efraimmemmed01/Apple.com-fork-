@@ -1,0 +1,133 @@
+:root {
+  --finish-white-titanium: #f2f1ed;
+  --finish-natural-titanium: #c2bcb2;
+  --finish-blue-titanium: #3d4555;
+  --finish-black-titanium: #3c3c3d;
+  --finish-desert-titanium: #bfa48f;
+  --finish-black: #3c4042;
+  --finish-alpine-green: #576856;
+  --finish-blue: #9aadf6;
+  --finish-deep-purple: #594f63;
+  --finish-gold: #f4e8ce;
+  --finish-graphite: #54524f;
+  --finish-green: #b0d4d2;
+  --finish-lavender: #dfceea;
+  --finish-midnight: #222930;
+  --finish-mist-blue: #96aed1;
+  --finish-pink: #f2adda;
+  --finish-product-red: #fc0324;
+  --finish-purple: #e6ddeb;
+  --finish-sage: #a9b689;
+  --finish-sierra-blue: #a7c1d9;
+  --finish-silver: #f0f2f2;
+  --finish-space-black: #403e3d;
+  --finish-space-gray: #555;
+  --finish-starlight: #faf6f2;
+  --finish-teal: #85adac;
+  --finish-ultramarine: #6467e6;
+  --finish-yellow: #f9e479;
+  --finish-white: #fafafa;
+  --finish-iphone-17-pro-cosmic-orange: #f77e2d;
+  --finish-iphone-17-pro-silver: #ffffff;
+  --finish-iphone-17-pro-deep-blue: #32374a;
+  --finish-iphone-air-black: #000000;
+  --finish-iphone-air-blue: #f0f9ff;
+  --finish-iphone-air-gold: #fffcf5;
+  --finish-iphone-air-white: #fcfcfc;
+  --finish-iphone-15-blue: #eff0f0;
+  --finish-iphone-15-green: #cfd9c9;
+  --finish-iphone-15-yellow: #ece6c6;
+  --finish-iphone-15-pink: #ebd0d2;
+  --finish-iphone-13-pro-gold: #fae7cf;
+  --finish-iphone-13-pro-silver: #f1f2ed;
+  --finish-iphone-13-blue: #276787;
+  --finish-iphone-13-midnight: #232a31;
+  --finish-iphone-13-product-red: #bf0013;
+  --finish-iphone-se-3-midnight: #232a31;
+  --finish-iphone-se-3-product-red: #bf0013;
+}
+
+.hdr {
+  width: 100%;
+
+  height: 45px;
+  background-color: var(--finish-iphone-15-blue);
+  font-weight: 300;
+  font-family: inter;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+font-size: 13px;
+}
+
+
+.navcon1{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+        text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-family: inter;
+    font-weight: 300;
+font-size: 13px;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+    }
+}
+
+
+.iphoneImg{
+width: 100%;
+height: 900px;
+overflow: hidden;
+position: relative;
+background-color: #f2f2f2;
+}
+
+.iphoneImg img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+.ipcon{
+    font-family: inter;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #f5f5f7;
+gap: 10px;
+width: 100%;
+height: 270px;
+    h1{
+font-size: 50px;
+
+    }
+
+    h3{
+
+
+    }
+    
+    h4{
+        gap: 10px;
+        background-color:dodgerblue;
+        color: white;
+        border-radius: 20px;
+        width: 130px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
