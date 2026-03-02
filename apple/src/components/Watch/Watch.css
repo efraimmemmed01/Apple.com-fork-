@@ -1,0 +1,29 @@
+.watch {
+  width: 100vw;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.p {
+  font-size: 35px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+ 
+}
+
+
+.icon{
+   width: 400px;
+   height: auto;
+}

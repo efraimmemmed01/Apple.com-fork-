@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import iphone from "../../assets/iphone17 .png";
+import iphone from "../../assets/Apple.jpg";
 
 
 const Header = () => {
