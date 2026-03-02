@@ -4,13 +4,16 @@
   display: block;
   margin: 0 auto;
   object-fit: cover;
+  position: relative;
+  top: -200px;
+  z-index: -2;
 
 
 }
 .ImgCon{
   height: 100vw;
   height: 500px;
-  background-color: #f5f5f7;
+  /* background-color:; */
 }
 h1 {
   font-size: 50px;

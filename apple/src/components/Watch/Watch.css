@@ -3,6 +3,9 @@
   height: 500px;
   object-fit: cover;
   display: block;
+  position: relative;
+  top: -200px;
+  z-index: -2;
 }
 
 h1 {
