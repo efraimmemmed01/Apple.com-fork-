@@ -28,8 +28,8 @@ const Header = () => {
 
 <div className='ipcon'>
 <h1>IPhone</h1>
-<h3>Say hello to the latest geneeration pf iphone</h3>
-<h4>Learn more</h4>
+<h3>Say hello to the latest generation of Iphone</h3>
+<button>Learn more</button>
 </div>
 
 <div className='iphoneImg'>
