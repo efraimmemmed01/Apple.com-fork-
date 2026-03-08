@@ -1,20 +1,25 @@
-import React from 'react'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import Airpods from './components/Airpods/Airpods'
-import Watch from './components/Watch/Watch'
-
-
+import React from "react";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Airpods from "./components/Airpods/Airpods";
+import Watch from "./components/Watch/Watch";
+import IpadAir from "./components/IpadAir/IpadAir";
+import Macbook from "./components/MacBook/Macbook";
+import "./App.css";
 
 const App = () => {
   return (
     <div>
       <Header />
       <Footer />
-      <Airpods/>
-      <Watch/>
+      <Airpods />
+      <Watch />
+      <div className="bag">
+        <IpadAir />
+        <Macbook />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
