@@ -1,0 +1,47 @@
+.airpods {
+  width: 100vw;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  position: relative;
+  top: -200px;
+  z-index: -2;
+
+
+}
+.ImgCon{
+  height: 100vw;
+  height: 500px;
+  /* background-color:; */
+}
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.cat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 10px;
+  margin-top: -10px;
+}
+
+button {
+  width: 130px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  background-color: #0071e3;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
