@@ -6,6 +6,8 @@ import Watch from "./components/Watch/Watch";
 import IpadAir from "./components/IpadAir/IpadAir";
 import Macbook from "./components/MacBook/Macbook";
 import "./App.css";
+import Ipadcolor from "./components/IpadColor/Ipadcolor";
+import Mac from "./components/MacM1/Mac";
 
 const App = () => {
   return (
@@ -17,6 +19,10 @@ const App = () => {
       <div className="bag">
         <IpadAir />
         <Macbook />
+         </div>
+         <div className="full">
+        <Ipadcolor/>
+        <Mac/>
       </div>
     </div>
   );

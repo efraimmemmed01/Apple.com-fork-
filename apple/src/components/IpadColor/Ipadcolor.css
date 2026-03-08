@@ -1,59 +1,53 @@
-.Macbook {
+.ipadcolor {
   width: 700px;
   height: 600px;
   object-fit: cover;
   margin: 0 auto;
   display: block;
   position: relative;
-  top: -135px;
+  top: -380px;
   z-index: -2;
 }
 
-.boxes {
-  width: 50%;
+.head{
+  width: 100%;
 }
 
-.cimg {
+.color {
   height: 100vw;
   height: 500px;
 }
 
-.txt {
+.orange {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+
+  gap: 10px;
+}
+
+.window {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  padding-right: 10px;
-  gap: 15px;
+  transform: translateY(-145px);
+  gap: 10px;
+
 }
 
-.card {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  transform: translateY(-610px);
-}
-
-.title {
-  font-size: 25px;
+.nine {
+  font-size: 23px;
   text-align: center;
+
 }
 
-.title2 {
-  font-size: 25px;
-  text-align: center;
-}
 
-.h1 {
-  font-size: 40px;
-}
-
-.sub {
+.btn4 {
   width: 110px;
   height: 40px;
   display: flex;
@@ -66,6 +60,6 @@
   border: none;
 }
 
-.sec {
-  margin-top: 15px;
+.btn4{
+    margin-top: 10px;
 }

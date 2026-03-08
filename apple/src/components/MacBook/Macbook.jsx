@@ -10,7 +10,7 @@ const Macbook = () => {
           <img className="Macbook" src={MacbookAir} alt="Macbook.jpg" />
         </div>
         <div className="card">
-          <h1>MacBook Air</h1>
+          <h1 className="h1">MacBook Air</h1>
           <p className="title">Sky blue color.</p>
           <p className="title2">Sky high performance with M4.</p>
           <div className="sec">

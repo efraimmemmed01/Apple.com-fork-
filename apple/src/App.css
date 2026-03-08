@@ -1,4 +1,11 @@
-.bag{
-    display: flex;
-    justify-content: space-between;
+.bag {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.full {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
