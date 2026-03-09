@@ -5,7 +5,7 @@
   margin: 0 auto;
   object-fit: cover;
   position: relative;
-  top: -200px;
+  top: -235px;
   z-index: -2;
 
 
@@ -53,7 +53,7 @@ button {
   justify-content: center;
   align-items: center;
 
-  transform: translateY(20px);
+  transform: translateY(-20px);
   gap: 10px;
 
 }

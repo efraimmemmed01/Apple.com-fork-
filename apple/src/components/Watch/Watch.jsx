@@ -9,7 +9,9 @@ const Watch = () => {
       <div className="class">
         <img className="icon" src={watchSeries} />
         <p className="p">The ultimate way to watch your health.</p>
-        <button>Learn more</button>
+        <div className="btn8">
+          <button className="btn0">Learn more</button>
+        </div>
       </div>
       <div className="book">
         <img className="watch" src={watchImage} />

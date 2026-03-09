@@ -8,6 +8,8 @@ import Macbook from "./components/MacBook/Macbook";
 import "./App.css";
 import Ipadcolor from "./components/IpadColor/Ipadcolor";
 import Mac from "./components/MacM1/Mac";
+import Watchse from "./components/WatchSe/Watchse";
+import IpadPro from "./components/IpadPro/IpadPro";
 
 const App = () => {
   return (
@@ -23,6 +25,10 @@ const App = () => {
          <div className="full">
         <Ipadcolor/>
         <Mac/>
+      </div>
+      <div className="div">
+        <Watchse/>
+        <IpadPro/>
       </div>
     </div>
   );

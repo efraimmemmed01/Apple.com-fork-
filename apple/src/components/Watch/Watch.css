@@ -4,7 +4,7 @@
   object-fit: cover;
   display: block;
   position: relative;
-  top: -250px;
+  top: -290px;
   z-index: -2;
 }
 
@@ -13,7 +13,7 @@ h1 {
 }
 
 .p {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .parent {
@@ -37,7 +37,7 @@ h1 {
    height: auto;
 }
 
-button {
+.btn0 {
   width: 130px;
   height: 45px;
   display: flex;
@@ -58,7 +58,11 @@ button {
   justify-content: center;
   align-items: center;
 
-  transform: translateY(-30px);
+  transform: translateY(-70px);
   gap: 10px;
 
+}
+
+.btn8{
+  margin-top: 10px;
 }

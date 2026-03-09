@@ -1,16 +1,14 @@
 .MacM1 {
-  width: 700px;
+  width: 705px;
   height: 600px;
   object-fit: cover;
-  margin: 0 auto;
-  display: block;
-  position: relative;
-  top: -880px;
   z-index: -2;
 }
 
 .side {
   width: 50%;
+  margin-left: auto;
+  transform: translateY(-915px);
 }
 
 .zone{
@@ -20,14 +18,15 @@
 
 .row {
   width: 100%;
-  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 
   padding-right: 10px;
   gap: 15px;
+
+
 }
 
 .top {
@@ -37,7 +36,7 @@
   justify-content: center;
   align-items: center;
 
-  transform: translateY(-1350px);
+  transform: translateY(-460px);
 }
 
 .title7 {
