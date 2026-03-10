@@ -84,7 +84,7 @@ margin-top: 10px;
 
 .iphoneImg{
 width: 100%;
-height: 750px;
+height: 400px;
 overflow: hidden;
 position: relative;
 background-color: #f2f2f2;
@@ -93,7 +93,7 @@ margin-bottom: 90px;
 
 .iphoneImg img{
     width: 100%;
-    height: 100%;
+    height: 750px;
     object-fit: cover;
     object-position: top;
      transform: translateY(-330px);
