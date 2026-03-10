@@ -15,21 +15,23 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Footer />
+
       <Airpods />
       <Watch />
       <div className="bag">
         <IpadAir />
         <Macbook />
-         </div>
-         <div className="full">
-        <Ipadcolor/>
-        <Mac/>
+      </div>
+      <div className="full">
+        <Ipadcolor />
+        <Mac />
+
       </div>
       <div className="div">
-        <Watchse/>
-        <IpadPro/>
+        <Watchse />
+        <IpadPro />
       </div>
+      <Footer />
     </div>
   );
 };

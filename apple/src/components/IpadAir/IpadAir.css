@@ -4,8 +4,6 @@
   object-fit: cover;
   margin: 0 auto;
   display: block;
-  /* position: relative;
-  top: -310px; */
   z-index: -2;
 }
 

@@ -11,7 +11,7 @@ const Header = () => {
 <div>
   <nav className='navcon1'>
     <ul>
-      <li><i class="fa-brands fa-apple"></i></li>
+      <li><i style={{fontSize:"25px"}} class="fa-brands fa-apple"></i></li>
             <li className='menu-item'>Mac</li>
       <li className='menu-item'>Ipad</li>
       <li className='menu-item'>Iphone</li>
