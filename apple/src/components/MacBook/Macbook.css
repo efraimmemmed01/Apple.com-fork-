@@ -1,57 +1,60 @@
-.MacM1 {
-  width: 705px;
+.Macbook {
+  width: 700px;
   height: 600px;
   object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  /* position: relative;
+  top: -175px; */
   z-index: -2;
 }
 
-.side {
+.boxes {
   width: 50%;
-  margin-left: auto;
-  transform: translateY(-915px);
+   transform: translateY(-175px);
 }
 
-.zone{
+.cimg {
   height: 100vw;
   height: 500px;
 }
 
-.row {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-
-  padding-right: 10px;
-  gap: 15px;
-
-
-}
-
-.top {
+.txt {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  transform: translateY(-460px);
+  padding-right: 10px;
+  gap: 15px;
 }
 
-.title7 {
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transform: translateY(-470px);
+}
+
+.title {
   font-size: 25px;
   text-align: center;
-  color: white;
-  margin-top: 10px;
 }
 
-.mid {
-  font-size: 35px;
-  color: white;
+.title2 {
+  font-size: 25px;
+  text-align: center;
 }
 
-.part{
+.h1 {
+  font-size: 40px;
+}
+
+.sub {
   width: 110px;
   height: 40px;
   display: flex;
@@ -65,6 +68,6 @@
   cursor: pointer;
 }
 
-.unit {
+.sec {
   margin-top: 15px;
 }

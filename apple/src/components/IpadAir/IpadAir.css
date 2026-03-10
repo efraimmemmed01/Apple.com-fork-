@@ -1,57 +1,60 @@
-.MacM1 {
-  width: 705px;
+.ipadBlue {
+  width: 700px;
   height: 600px;
   object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  /* position: relative;
+  top: -310px; */
   z-index: -2;
 }
 
-.side {
+.header{
   width: 50%;
-  margin-left: auto;
-  transform: translateY(-915px);
+   transform: translateY(-310px);
 }
 
-.zone{
+.blue {
   height: 100vw;
   height: 500px;
 }
 
-.row {
+.ipad {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
+  padding-left: 10px;
 
-  padding-right: 10px;
-  gap: 15px;
-
-
+  gap: 10px;
 }
 
-.top {
+.main {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  transform: translateY(-460px);
+  transform: translateY(190px);
+  gap: 10px;
+
 }
 
-.title7 {
+.child {
   font-size: 25px;
   text-align: center;
-  color: white;
-  margin-top: 10px;
+  white-space: nowrap;
 }
 
-.mid {
-  font-size: 35px;
-  color: white;
+.air {
+  width: 150px;
+  height: auto;
+
+
 }
 
-.part{
+.btn {
   width: 110px;
   height: 40px;
   display: flex;
@@ -63,8 +66,4 @@
   border-radius: 25px;
   border: none;
   cursor: pointer;
-}
-
-.unit {
-  margin-top: 15px;
 }

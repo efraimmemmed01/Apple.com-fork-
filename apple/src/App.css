@@ -1,0 +1,17 @@
+.bag {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.full {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

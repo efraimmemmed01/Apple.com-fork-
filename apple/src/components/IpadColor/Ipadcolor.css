@@ -1,57 +1,54 @@
-.MacM1 {
-  width: 705px;
+.ipadcolor {
+  width: 700px;
   height: 600px;
   object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  /* position: relative;
+  top: -430px; */
   z-index: -2;
 }
 
-.side {
-  width: 50%;
-  margin-left: auto;
-  transform: translateY(-915px);
+.head{
+  width: 100%;
+   transform: translateY(-415px);
 }
 
-.zone{
+.color {
   height: 100vw;
   height: 500px;
 }
 
-.row {
-  width: 100%;
+.orange {
+  width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
+  padding-left: 10px;
 
-  padding-right: 10px;
-  gap: 15px;
-
-
+  gap: 10px;
 }
 
-.top {
+.window {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  transform: translateY(-460px);
+  transform: translateY(220px);
+
+
 }
 
-.title7 {
-  font-size: 25px;
+.nine {
+  font-size: 23px;
   text-align: center;
-  color: white;
-  margin-top: 10px;
+
 }
 
-.mid {
-  font-size: 35px;
-  color: white;
-}
 
-.part{
+.btn4 {
   width: 110px;
   height: 40px;
   display: flex;
@@ -62,9 +59,8 @@
   color: white;
   border-radius: 25px;
   border: none;
-  cursor: pointer;
 }
 
-.unit {
-  margin-top: 15px;
+.btn4{
+    margin-top: 15px;
 }
