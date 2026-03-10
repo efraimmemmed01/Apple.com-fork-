@@ -1,4 +1,3 @@
-// Footer.jsx — Apple Azerbaijan Footer
 import "./Footer.css";
 
 const NAV_COLUMNS = [
@@ -76,7 +75,6 @@ const LEGAL_LINKS = [
 export default function Footer() {
   return (
     <footer className="apple-footer">
-      {/* Disclaimer note */}
       <div className="apple-footer__note">
         <p>
          
@@ -84,7 +82,6 @@ export default function Footer() {
         </p>
       </div>
 
-      {/* Navigation columns */}
       <nav className="apple-footer__nav" aria-label="Footer naviqasiyası">
         {NAV_COLUMNS.map((col) => (
           <div key={col.title} className="apple-footer__col">
